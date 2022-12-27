@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(imgs/background.jpg) no-repeat;
+    background-size: cover;
+}
+
+.box {
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.box-img {
+    border-radius: 50%;
+    
+}
+
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.school {
+    font-size: 20px;
+}
+
+.p {
+    text-align: justify;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.box li {
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+.box li a {
+    color: white;
+    text-decoration: none;
+    font-size: 45px;
+    transition: all ease-in-out 250ms; 
+}
+
+.box li a:hover {
+    color: #b9b9b9;
+}
